@@ -1,0 +1,91 @@
+h5 -> pb 로 변환하기 (성공)
+  1. weights13.h5가 전체 모델이 아니라 가중치만 저장된 형태이므로 load_model 사용 불가
+  2. 전체 모델만 저장하는 train_2.py 만들기 , 저장된 전체 모델을 .pb로 변환하기 (성공)
+pb -> tflite (실패) - 불가능
+  대안 : (안드로이드와 컴퓨터가 통신해서 안드로이드에서 영상을 전송, 컴퓨터(서버)에서 추론, 결과를 안드로이드에 전송
+
+
+cpu로 실행 시 swap 메모리를 사용함에도 메모리 부족 현상 (epoch을 나눠서 이전 epoch부터 시작할 수 있게 해야함)
+  start epoch을 0이 아니라 10에서 시작하기 (성공)
+gpu로 실행 시 gpu 메모리 부족 (1 epoch 당 22분 )
+
+
+generators.py
+
+
+train_3.py로 학습 진행중 
+  start_epoch 조정하면 "new test" 디렉토리 안에 있는 weight를 load
+  start_epoch이 13이면 weight12.h5를 load해서 weight13.h5부터 만들어감
+
+
+1. datasets.cache , generator.py 두개 보면서 어떻게 우리파일로 학습할지 - 순
+2. 영상 새로 24 (ㄱ~ㅎ, ㅏ~ㅣ) -> align 파일 (프레임) - 기수
+< 담주 월요일 >
+3. 학습 돌리면서 특정 에폭마다 val 파일안의 영상 바꿔주기 (성능 체크하면서)
+4. (시간만 있으면 자동) 완성된 모델
+5. 안드로이드에서 영상을 찍고 -> 내부의 모델로 추론해서 결과 얻고 -> 결과 출력 (불가능)
+   안드로이드에서 영상찍고 -> 서버로 전달 -> (추론) -> 결과를 서버로부터 받아서 -> 결과 출력 (대안)
+
+
+
+path.eval+++++
+[]
++++++path.eval
+logprobs$$$$$$$$$$$$$
+[[ 0.]
+ [ 0.]]
+paths : [array([], shape=(2, 0), dtype=int64)]
+log : [[ 0.]
+ [ 0.]]
+sentence===
+
+unicode_sentence===
+
+sentence===
+
+unicode_sentence===
+
+
+현재 s1 , train_2.py는 예측을 못하고 있음 - decoders 코드 확인 (전부 0 들어감)
+  train_6.py , s6
+  absolute_max_string_len = 2로 수정 (길이가 너무 길어서 그냥 아예 예측 안하는것 같아서)
+  -> 아직도 예측 못함
+
+
+
+
+
+
+
+
+python scripts/extract_mouth_batch.py evaluation/samples/GRID/video/ *.mp4 TARGET/ common/predictors/shape_predictor_68_face_landmarks.dat
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+계속 모음만 예측함 -> 자음 14 영상만 train 시키는 중 , grid.txt도 수정함
+
+
+
+서버 만들기 + 통신 + 서버에서 추론
+
+
+
+
+flask 설치
+opencv-python 설치
+pip2 install opencv-python==4.2.0.32
+
+
+postman 으로 비디오 가져오는 코드 작성
+결과를 post로 웹에 띄우기
+패키지 설치, 포트포워딩 해서 다른 기기로 들어가지게 하기
+
+post.py 중요
+
+conda activate KLipNet2
+python post.py
+
+

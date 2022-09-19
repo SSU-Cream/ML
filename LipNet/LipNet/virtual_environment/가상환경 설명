@@ -1,0 +1,3 @@
+KLipNet	 -> GPU로 train & predict
+KLipNet2 -> CPU로 train & predict (default)
+temp	 -> extract_mouth_batch.py 로 video 에서 frame 추출할때 사용하는 가상환경

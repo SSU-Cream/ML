@@ -1,0 +1,689 @@
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfo
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfo
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 주황
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \uc8fc\ud669'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+@@@@@@@@@@@@@decode@@@@@@@@@@@@@
+[[[  6.91676469e-05   2.38189677e-04   1.41963479e-04 ...,   1.04433406e-04
+     1.46528989e-01   6.79534569e-05]
+  [  3.74000447e-05   1.95597924e-04   8.34502571e-05 ...,   7.05677885e-05
+     4.73636538e-01   2.98685463e-05]
+  [  2.08255224e-05   1.18663600e-04   4.74001863e-05 ...,   4.43356003e-05
+     6.72435105e-01   1.85540721e-05]
+  ..., 
+  [  3.79002922e-05   1.11639871e-04   5.00268616e-05 ...,   4.96613684e-05
+     6.23928249e-01   2.75445327e-05]
+  [  7.64047290e-05   1.77300637e-04   6.67509812e-05 ...,   7.52514607e-05
+     4.13241655e-01   4.51152628e-05]
+  [  1.52731824e-04   2.38064284e-04   8.61972876e-05 ...,   1.06968910e-04
+     1.24771997e-01   7.24020138e-05]]
+
+ [[  7.28878513e-05   2.36502368e-04   1.40735254e-04 ...,   1.01881604e-04
+     1.45850390e-01   6.88420696e-05]
+  [  3.85943640e-05   1.94098597e-04   8.50869401e-05 ...,   6.87990614e-05
+     4.77941811e-01   3.01235796e-05]
+  [  2.11371935e-05   1.17491858e-04   4.80466115e-05 ...,   4.23416241e-05
+     6.80857778e-01   1.82222666e-05]
+  ..., 
+  [  3.65318119e-05   1.06170737e-04   5.06631804e-05 ...,   5.11950639e-05
+     6.32235646e-01   2.75380025e-05]
+  [  7.65328368e-05   1.69192033e-04   6.85408741e-05 ...,   7.80522823e-05
+     4.18351978e-01   4.58462964e-05]
+  [  1.53159737e-04   2.30778402e-04   8.99660881e-05 ...,   1.07830841e-04
+     1.26588032e-01   7.30516040e-05]]]
+######################
+[75 75]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+path.eval+++++
+[[11172]
+ [11172]]
++++++path.eval
+logprobs$$$$$$$$$$$$$
+[[ 0.00058025]
+ [ 0.00057706]]
+paths : [array([[11172],
+       [11172]])]
+log : [[ 0.00058025]
+ [ 0.00057706]]
+sentence===
+ 
+unicode_sentence===
+ 
+sentence===
+ 
+unicode_sentence===
+ 
+/home/sun/anaconda3/envs/KLipNet/lib/python2.7/site-packages/nltk/translate/bleu_score.py:472: UserWarning: 
+Corpus/Sentence contains 0 counts of 2-gram overlaps.
+BLEU scores might be undesirable; use SmoothingFunction().
+  warnings.warn(_msg)
+
+
+[Epoch 0] Out of 256 samples: [CER: 13.000 - 0.929] [WER: 5.000 - 1.000] [BLEU: 0.517 - 0.517]
+
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfy
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfy
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 504, 3052, 1176, 11172, 5292, 11172, 1400, 2961, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 그러나 사 노랑
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15'
+ u'\ud559\uc0dd \ucd95\uad6c \uadf8\ub7ec\ub098 \uc0ac \ub178\ub791']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172   504  3052  1176 11172  5292 11172
+   1400  2961    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+@@@@@@@@@@@@@decode@@@@@@@@@@@@@
+[[[  7.28878513e-05   2.36502354e-04   1.40735239e-04 ...,   1.01881596e-04
+     1.45850375e-01   6.88420623e-05]
+  [  3.85943567e-05   1.94098568e-04   8.50869328e-05 ...,   6.87990541e-05
+     4.77941751e-01   3.01235759e-05]
+  [  2.11371935e-05   1.17491865e-04   4.80466151e-05 ...,   4.23416277e-05
+     6.80857778e-01   1.82222684e-05]
+  ..., 
+  [  3.65318119e-05   1.06170737e-04   5.06631804e-05 ...,   5.11950639e-05
+     6.32235646e-01   2.75380025e-05]
+  [  7.65328368e-05   1.69192033e-04   6.85408741e-05 ...,   7.80522823e-05
+     4.18351978e-01   4.58462964e-05]
+  [  1.53159737e-04   2.30778402e-04   8.99660881e-05 ...,   1.07830841e-04
+     1.26588032e-01   7.30516040e-05]]
+
+ [[  7.96594977e-05   2.27572353e-04   1.46189443e-04 ...,   1.04448671e-04
+     1.42904192e-01   7.05448256e-05]
+  [  4.25552498e-05   1.91676620e-04   8.87176284e-05 ...,   7.17590374e-05
+     4.65831310e-01   3.18940620e-05]
+  [  2.38951216e-05   1.16982752e-04   4.92113650e-05 ...,   4.44637699e-05
+     6.67239726e-01   2.01303483e-05]
+  ..., 
+  [  3.63017934e-05   1.00703670e-04   4.81298230e-05 ...,   5.05010867e-05
+     6.43214107e-01   2.55447176e-05]
+  [  7.50984182e-05   1.65028105e-04   6.80807134e-05 ...,   7.52545675e-05
+     4.29412514e-01   4.35084185e-05]
+  [  1.56685914e-04   2.29149038e-04   8.84985493e-05 ...,   1.06423991e-04
+     1.32623777e-01   7.24829297e-05]]]
+######################
+[75 75]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+path.eval+++++
+[[11172]
+ [11172]]
++++++path.eval
+logprobs$$$$$$$$$$$$$
+[[ 0.00057706]
+ [ 0.00054651]]
+paths : [array([[11172],
+       [11172]])]
+log : [[ 0.00057706]
+ [ 0.00054651]]
+sentence===
+ 
+unicode_sentence===
+ 
+sentence===
+ 
+unicode_sentence===
+ 
+13/13 [==============================] - 1376s - loss: 404.2903 - val_loss: 102.0699
+Epoch 2/150
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbsr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbsr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 8800, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 칠 빨강
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssfr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 2352, 2940, 5404, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 따라서 사 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uce60 \ube68\uac15'
+ u'\ud559\uc0dd \ucd95\uad6c \ub530\ub77c\uc11c \uc0ac \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  8800 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172  2352  2940  5404 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5138 get requests, put_count=12170 evicted_count=7000 eviction_rate=0.575185 and unsatisfied allocation rate=0.000194628
+ 1/13 [=>............................] - ETA: 3s - loss: 128.4294>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssoo
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssoo
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 2352, 2940, 5404, 11172, 7036, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 따라서 일 주황
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssso
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssso
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 2352, 2940, 5404, 11172, 8800, 11172, 1400, 2961, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 따라서 칠 노랑
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ub530\ub77c\uc11c \uc77c \uc8fc\ud669'
+ u'\ud559\uc0dd \ucd95\uad6c \ub530\ub77c\uc11c \uce60 \ub178\ub791']
+Y_data ---
+[[10585  5341 11172  8597   364 11172  2352  2940  5404 11172  7036 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172  2352  2940  5404 11172  8800 11172
+   1400  2961    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5588 get requests, put_count=13624 evicted_count=8000 eviction_rate=0.587199 and unsatisfied allocation rate=0.000178955
+ 2/13 [===>..........................] - ETA: 3s - loss: 117.6218>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbor
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbor
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 7036, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 일 빨강
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssuso
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssuso
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 8800, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 칠 주황
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc77c \ube68\uac15'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uce60 \uc8fc\ud669']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  7036 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  8800 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 6010 get requests, put_count=15048 evicted_count=9000 eviction_rate=0.598086 and unsatisfied allocation rate=0.000332779
+ 3/13 [=====>........................] - ETA: 3s - loss: 112.7913>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssufo
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssufo
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 주황
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssuoo
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssuoo
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 7036, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 일 주황
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \uc8fc\ud669'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc77c \uc8fc\ud669']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  7036 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+ 4/13 [========>.....................] - ETA: 2s - loss: 110.4463>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbsy
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbsy
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 8800, 11172, 1400, 2961, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 칠 노랑
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssufr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssufr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uce60 \ub178\ub791'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  8800 11172
+   1400  2961    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 19994 get requests, put_count=19843 evicted_count=9000 eviction_rate=0.45356 and unsatisfied allocation rate=0.459888
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 493 to 542
+ 5/13 [==========>...................] - ETA: 2s - loss: 109.6497>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbfr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssssr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssssr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 2352, 2940, 5404, 11172, 8800, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 따라서 칠 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15'
+ u'\ud559\uc0dd \ucd95\uad6c \ub530\ub77c\uc11c \uce60 \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172  2352  2940  5404 11172  8800 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 1014 get requests, put_count=2068 evicted_count=1000 eviction_rate=0.483559 and unsatisfied allocation rate=0
+ 6/13 [============>.................] - ETA: 2s - loss: 108.6829Epoch 2: Curriculum(train: True, sentence_length: -1, flip_probability: 0.5, jitter_probability: 0.05)
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssufr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssufr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssusr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssusr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 8800, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 칠 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uce60 \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  8800 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 1778 get requests, put_count=3837 evicted_count=2000 eviction_rate=0.521241 and unsatisfied allocation rate=0
+ 7/13 [===============>..............] - ETA: 1s - loss: 108.2408Epoch 2: Curriculum(train: True, sentence_length: -1, flip_probability: 0.5, jitter_probability: 0.05)
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssso
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssso
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 2352, 2940, 5404, 11172, 8800, 11172, 1400, 2961, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 따라서 칠 노랑
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssuor
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssuor
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 7036, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 일 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ub530\ub77c\uc11c \uce60 \ub178\ub791'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc77c \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172  2352  2940  5404 11172  8800 11172
+   1400  2961    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  7036 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 2018 get requests, put_count=5083 evicted_count=3000 eviction_rate=0.590203 and unsatisfied allocation rate=0
+ 8/13 [=================>............] - ETA: 1s - loss: 108.1770>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssoo
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssoo
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 2352, 2940, 5404, 11172, 7036, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 따라서 일 주황
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbfr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ub530\ub77c\uc11c \uc77c \uc8fc\ud669'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172  2352  2940  5404 11172  7036 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 2725 get requests, put_count=6796 evicted_count=4000 eviction_rate=0.588582 and unsatisfied allocation rate=0.000366972
+ 9/13 [===================>..........] - ETA: 1s - loss: 107.8537>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssufo
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssufo
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 주황
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbor
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbor
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 7036, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 일 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \uc8fc\ud669'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc77c \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  7036 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 3677 get requests, put_count=8755 evicted_count=5000 eviction_rate=0.571102 and unsatisfied allocation rate=0.000271961
+10/13 [======================>.......] - ETA: 0s - loss: 107.9061>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbsr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssbsr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 8800, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 칠 빨강
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssfy
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssfy
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 2352, 2940, 5404, 11172, 5292, 11172, 1400, 2961, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 따라서 사 노랑
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uce60 \ube68\uac15'
+ u'\ud559\uc0dd \ucd95\uad6c \ub530\ub77c\uc11c \uc0ac \ub178\ub791']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  8800 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172  2352  2940  5404 11172  5292 11172
+   1400  2961    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4462 get requests, put_count=10548 evicted_count=6000 eviction_rate=0.568828 and unsatisfied allocation rate=0.000224115
+11/13 [========================>.....] - ETA: 0s - loss: 108.2132>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssuoo
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssuoo
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 7036, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 일 주황
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssufy
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssufy
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 1400, 2961, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 노랑
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc77c \uc8fc\ud669'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ub178\ub791']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  7036 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   1400  2961    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4500 get requests, put_count=11594 evicted_count=7000 eviction_rate=0.603761 and unsatisfied allocation rate=0.000222222
+12/13 [==========================>...] - ETA: 0s - loss: 108.6670>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssoy
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/sssoy
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 2352, 2940, 5404, 11172, 7036, 11172, 1400, 2961, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 따라서 일 노랑
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssuoy
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/train/s1/ssuoy
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 7036, 11172, 1400, 2961, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 일 노랑
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ub530\ub77c\uc11c \uc77c \ub178\ub791'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc77c \ub178\ub791']
+Y_data ---
+[[10585  5341 11172  8597   364 11172  2352  2940  5404 11172  7036 11172
+   1400  2961    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  7036 11172
+   1400  2961    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+Epoch 1: Curriculum(train: False, sentence_length: -1, flip_probability: 0.5, jitter_probability: 0.05)
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfo
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfo
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 주황
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+Epoch 1: Curriculum(train: False, sentence_length: -1, flip_probability: 0.5, jitter_probability: 0.05)
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \uc8fc\ud669'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfo
+sentence_length : -1
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfo
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfy
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfy
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 주황
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 504, 3052, 1176, 11172, 5292, 11172, 1400, 2961, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 그러나 사 노랑
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15'
+ u'\ud559\uc0dd \ucd95\uad6c \uadf8\ub7ec\ub098 \uc0ac \ub178\ub791']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172   504  3052  1176 11172  5292 11172
+   1400  2961    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \uc8fc\ud669'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfo
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfo
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfy
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfy
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 주황
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 504, 3052, 1176, 11172, 5292, 11172, 1400, 2961, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 그러나 사 노랑
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15'
+ u'\ud559\uc0dd \ucd95\uad6c \uadf8\ub7ec\ub098 \uc0ac \ub178\ub791']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172   504  3052  1176 11172  5292 11172
+   1400  2961    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+Epoch 1: Curriculum(train: False, sentence_length: -1, flip_probability: 0.5, jitter_probability: 0.05)
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfo
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfo
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 7420, 10857, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 주황
+>>/home/kykymouse/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+>>/home/sun/LipNet/LipNet/training/overlapped_speakers/s1/datasets/val/s1/ssbfr
+sentence_length : -1
+[10585, 5341, 11172, 8597, 364, 11172, 10584, 7616, 3532, 11172, 5292, 11172, 4712, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+label_length
+align.sentence
+학생 축구 하지만 사 빨강
+source_str ---
+[u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \uc8fc\ud669'
+ u'\ud559\uc0dd \ucd95\uad6c \ud558\uc9c0\ub9cc \uc0ac \ube68\uac15']
+Y_data ---
+[[10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   7420 10857    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]
+ [10585  5341 11172  8597   364 11172 10584  7616  3532 11172  5292 11172
+   4712    21    -1    -1    -1    -1    -1    -1    -1    -1    -1    -1
+     -1    -1    -1    -1    -1    -1    -1    -1]]
+------
+@@@@@@@@@@@@@decode@@@@@@@@@@@@@
+[[[  1.44401620e-05   4.52824024e-05   3.38416430e-05 ...,   2.35902862e-05
+     7.96113968e-01   1.47948840e-05]
+  [  1.71384670e-06   8.16151896e-06   4.39977475e-06 ...,   3.08190715e-06
+     9.73169148e-01   1.51403742e-06]
+  [  5.00008582e-07   2.54025827e-06   1.28841737e-06 ...,   9.30136991e-07
+     9.91578221e-01   4.47945865e-07]
+  ..., 
+  [  7.63058836e-07   2.20732704e-06   9.21693925e-07 ...,   8.29375438e-07
+     9.92074251e-01   4.54120567e-07]
+  [  3.18298294e-06   7.52495271e-06   2.87397324e-06 ...,   2.64784285e-06
+     9.73235667e-01   1.68468034e-06]
+  [  3.67422617e-05   5.89615374e-05   2.38891389e-05 ...,   2.15359214e-05
+     7.68168688e-01   1.66220816e-05]]
+
+ [[  1.49705329e-05   4.50270309e-05   3.39621001e-05 ...,   2.32121711e-05
+     7.96667397e-01   1.47534847e-05]
+  [  1.73354556e-06   8.07344986e-06   4.43050112e-06 ...,   3.00130000e-06
+     9.73644018e-01   1.47511025e-06]
+  [  5.06378740e-07   2.51600522e-06   1.31661693e-06 ...,   8.97603911e-07
+     9.91763234e-01   4.31861224e-07]
+  ..., 
+  [  7.57278997e-07   2.20772540e-06   9.71216309e-07 ...,   8.58825956e-07
+     9.92127538e-01   4.50012124e-07]
+  [  3.17167928e-06   7.44755243e-06   2.97881797e-06 ...,   2.71064914e-06
+     9.73468304e-01   1.67237147e-06]
+  [  3.66051463e-05   5.77389364e-05   2.43346640e-05 ...,   2.15338569e-05
+     7.71059394e-01   1.63108525e-05]]]
+######################
+[75 75]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+path.eval+++++
+[[11172]
+ [11172]]
++++++path.eval
+logprobs$$$$$$$$$$$$$
+[[  2.16514145e-05]
+ [  2.11666138e-05]]
+paths : [array([[11172],
+       [11172]])]
+log : [[  2.16514145e-05]
+ [  2.11666138e-05]]
+sentence===
+ 
+unicode_sentence===
+ 
+sentence===
+ 
+unicode_sentence===
+ 
+
