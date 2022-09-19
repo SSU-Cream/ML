@@ -1,0 +1,2 @@
+Epoch,Samples,Mean CER,Mean CER (Norm),Mean WER,Mean WER (Norm),Mean BLEU,Mean BLEU (Norm)
+136,256,3.51172,0.25084,1.60547,0.32109,0.64365,0.64365
